@@ -1,12 +1,12 @@
-function gretting(events){
-    var output;
-    function mg(sms){
-        output = events + " " + sms+ "!";
-        console.log(output);
+// function gretting(events){
+//     var output;
+//     function mg(sms){
+//         output = events + " " + sms+ "!";
+//         console.log(output);
        
-    }
-    return mg;
-}
+//     }
+//     return mg;
+// }
 
 
 
@@ -24,9 +24,23 @@ function gretting(events){
 
 
 
-var good = gretting("Good morning");
-var hello = gretting("hello");
+// var good = gretting("Good morning");
+// var hello = gretting("hello");
 
 
-good("papa");
-hello("ammi");
+// good("papa");
+// hello("ammi");
+
+
+
+
+
+
+var name = "omar faruq";
+
+function say_name(){
+    console.log("hi " + name);
+}
+console.dir(say_name); // closer commend
+
+say_name();
