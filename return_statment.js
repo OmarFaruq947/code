@@ -39,3 +39,13 @@ function obj(){
 
 var example = obj()
 console.log(example);
+
+
+
+
+
+
+
+
+
+
